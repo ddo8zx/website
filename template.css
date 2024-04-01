@@ -1,0 +1,34 @@
+body{ /*styles body*/
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 25px;
+    padding: 5px;
+}
+p{ /*styles paragraphs*/
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{ /*styles tables*/
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+td,tr{ /*styles tables and rows*/
+    border: 1px solid black;
+}
+a.button{ /*styles linked buttons*/
+    background-color: white;
+    color: red;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+img{ /*styles images*/
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
